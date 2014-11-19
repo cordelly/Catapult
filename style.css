@@ -14,30 +14,30 @@ a:hover{text-decoration: none;}
 
 /* Globals type styling */
 
-h1,h2,h3,h4,h5,h6,p{
+    h1, h2, h3, h4, h5, h6, p{
 	font-family:"Helvetica";
 }
-a{
+ a{
 	font-family:Pacifico;
 }
-a{
-	font-family:OpenSans;
+ a{
+	font-family:Open Sans;
 	font-weight:800;
 }
-a{
-	font-family:OpenSans;
+ a{
+	font-family:Open Sans;
 	font-weight:600;
 }
-a{
+ a{
 	font-family:Arvo;
 }
-label{
-	font-family:AbrilFatface;
+ label{
+	font-family:Abril Fatface;
 }
-label{
+ label{
 	font-family:Arvo;
 }
-.btn{
+ .btn{
 	font-family:Arvo;
 }
 
@@ -439,10 +439,14 @@ label{
 }
 
 
+
 /* Mobile adjustments */
 
 @media (max-width: 768px)
 {
+    .page-container{
+        overflow-x: hidden;
+    }
     .bloc{
         text-align: center;
         -webkit-background-size: auto 200%;
@@ -477,5 +481,8 @@ label{
     }
     .a-block{
         text-align: center;
+    }
+    .btn-dwn{
+       display:none; 
     }
 }
